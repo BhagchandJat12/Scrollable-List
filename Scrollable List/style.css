@@ -1,0 +1,49 @@
+#button {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: red;
+    box-shadow: 0 0 10px rgba(red, green, blue, 0.25);
+    color: wheat;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: none;
+}
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/materialicons/v118/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
+
+#frame {
+    position: relative;
+    display: grid;
+    height: auto;
+    width: 300px;
+    align-content: center;
+    padding: 50PX;
+    border: 3px solid rgb(25, 37, 218);
+    box-sizing: border-box;
+}
